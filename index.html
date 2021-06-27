@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+</head>
+<body>
+    <main>
+    <div class="instructins">
+        <div>
+            <h3>Step 1 (enter the survey)</h3>
+            <p>on the main page be 12 survey for the 6 courses you registered to enter one of the surveys click on it or run the following in the console<br>
+                <mark><code>document.f12.submit()</code></mark></p>
+        </div>
+        <div>
+            <h3>step 2 (fill the survey)</h3>
+            <p>when you enter a survey there will be 19 required question (mcq) + 2 optional (writing)
+                to automaite felling the required questions run the following in the console<br>
+                <mark><code>for(var i =1 ; i<=19;i++)document.querySelector(`input[value="${i}-5"]`).click();</code></mark>
+                </p>
+        </div>
+        <div>
+            <h3>step 3 (submit)</h3>
+            <p>to submit the survey click on complete button or enter the following.<br>
+                <mark> <code>document.querySelector(`button[value="Complete"]`).click(); </code></mark>
+                </p>
+        </div>
+    </div>
+    <div>
+        <p>optional 
+            you can swap the number 5 with your rating from (1 to 5)
+            1 toatly agree
+            2 agree
+            3 nither agree or disagree
+            4 disagree
+            5 toatly disagree</p>
+    </div>
+
+    
+
+
+
+
+
+
+
+	
+	</main>
+</body>
+</html>
